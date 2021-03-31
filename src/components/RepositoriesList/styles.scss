@@ -1,0 +1,40 @@
+div.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  max-width: 420px;
+  margin: 1.5rem auto;
+  padding: 2rem;
+
+  background-color: var(--gray-700);
+  color: white;
+  padding: 0.5rem;
+
+  p {
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 0.25rem;
+
+    > span {
+      font-weight: 900;
+    }
+
+    > a {
+      font-weight: normal;
+      font-size: 0.9rem;
+    }
+  }
+
+  span, a {
+    margin-left: 0.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    margin-top: 0.5rem;
+    color: lightblue;
+
+  }
+
+}
